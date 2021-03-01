@@ -1,0 +1,7 @@
+Atividade 1 - Nomes - Hello World
+
+1) Faça uma pequena pesquisa sobre os nomes que os desenvolvedores recebem e o qual seu significado. 
+Exemplo:
+DBA - Data Base Administrator - É o administrador do Banco de Dados.
+
+2) Utilizando apenas HTML. Crie uma página para contar qual seu hobby favorito.

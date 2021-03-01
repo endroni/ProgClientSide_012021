@@ -1,0 +1,12 @@
+Atividade 2 - Pesquisa
+
+Pesquisa: 
+1 - Faça uma breve pesquisa sobre as seguintes linguagens (Surgimento, vantagens, sites que utilizam, etc.):
+CSS
+PHP
+HTML
+TypeScript
+JavaScript 
+
+2 - Faça uma breve pesquisa sobre os principais protocolos na internet. Os 5 mais utilizados já está bom.  
+2.2 - Explique a finalidade dos protocolos listados. 

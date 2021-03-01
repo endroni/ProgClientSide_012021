@@ -1,0 +1,7 @@
+Atividade 5 - Listas
+
+1) Crie uma página para um currículo de acordo com o wireframe em anexo. Pode ficar a vontade para melhorá-lo. 
+
+2) Crie uma lista com um Planeta, Continentes, Países, Estados, Cidades ou Municípios. (Obs. Não precisa fazer de todos, mas pelo menos 5 de cada). 
+
+3) Crie uma lista de acordo com o wireframe em anexo. 

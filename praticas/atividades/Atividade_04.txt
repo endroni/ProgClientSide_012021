@@ -1,0 +1,7 @@
+Atividade 4 - Iniciando um repositório de estudos no gitHub
+
+Individual - Prática: 
+1) Crie um repositório no gitHub
+2) Faça uma boa descrição no README.md dizendo o propósito de estudos desse repositório. 
+3) Crie um index.html do wireframe em anexo.
+4) Torne seu repositório do gitHub como GitHub Pages e poste aqui o link
