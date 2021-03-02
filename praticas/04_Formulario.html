@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Formulario HTML</h2>
+    
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                   <fieldset>
+                       <legend>Digite seus dados</legend>
+                       <form action="envia.php" method="post" name="cadastro">
+                            <table>
+                                <tr>
+                                    <td><label for="nome">Nome:</label></td>
+                                    <td><input type="text" name="nome" id="nome" size="40" maxlength="30" placeholder="Digite seu nome"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="email">E-mail:</label></td>
+                                    <td><input type="email" name="email" id="email" size="40" maxlength="30" placeholder="Digite seu e-mail"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="telefone">Telefone:</label></td>
+                                    <td><input type="text" name="telefone" id="telefone" size="40" maxlength="15" placeholder="Digite seu telefone"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="senha">Senha:</label></td>
+                                    <td><input type="password" name="senha" id="senha" size="40" maxlength="40" placeholder="Digite sua senha(MAX. 40 Caracteres)"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="nascimento">Data de Nascimento:</label></td>
+                                    <td><input type="date" name="nascimento" id="nascimento"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="generoMusical">Gênero Musical Favorito:</label></td>
+                                    <td>
+                                        <input type="checkbox" name="rock" id="rock" value="rock"/>
+                                        <label for="rock">Rock</label>
+                                            <br>
+                                        <input type="checkbox" name="sertanejo" id="sertanejo" value="sertanejo"/>
+                                        <label for="sertanejo">Sertanejo</label>
+                                        <br>
+                                        <input type="checkbox" name="pop" id="pop" value="pop"/>
+                                        <label for="pop">Pop</label>
+                                        <br>
+                                        <input type="checkbox" name="eletronica" id="eletronica" value="eletronica"/>
+                                        <label for="eletronica">Eletronica</label>
+                                        <br>
+                                        <input type="checkbox" name="pagode" id="pagode" value="pagode"/>
+                                        <label for="pagode">Pagode</label>
+                                        <br>
+                                        <input type="checkbox" name="samba" id="samba" value="samba"/>
+                                        <label for="samba">Samba</label>
+                                        <br>
+                                        <input type="checkbox" name="celta" id="celta" value="celta"/>
+                                        <label for="celta">Celta</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="opcao">Receber notícias por E-mail:</label></td>
+                                    <td>
+                                        <input type="radio" name="opcao" id="opcao" value="sim"/>
+                                        <label>SIM</label>
+                                        <input type="radio" name="opcao" id="opcao" value="nao"/>
+                                        <label>NÃO</label>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="estado">Estado:</label></td>
+                                    <td>
+                                        <select name="estado" id="estado">
+                                            <option value="" selected>-- Selecione --</option>
+
+                                            <optgroup label="Sudeste">
+                                                    <option value="mg">Minas Gerais</option>
+                                                    <option value="sp">São Paulo</option>
+                                                    <option value="rj">Rio de Janeiro</option>
+                                            </optgroup>
+
+                                            <optgroup>
+                                                <optgroup label="Nordeste">
+                                                    <option value="ba">Bahia</option>
+                                                    <option value="pe">Pernambuco</option>
+                                                    <option value="ce">Ceará</option>
+                                                </optgroup>
+                                            </optgroup>
+                                        </select>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td><label for="comentario">Comentário:</label></td>
+                                    <td><textarea name="comentario" id="comoentario" cols="30" rows="10"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="submit" value="Enviar" id="enviar" name="enviar"/>
+                                        <input type="reset" value="Limpar" id="limpar" name="limpar"/>
+                                        <input type="submit" value="Salvar" id="salvar" name="salvar"/>
+                                        <button type="submit" id="encaminhar" name="encaminhar">
+                                            <img src="./img/andando.gif" alt="Botão" width="60" height="30"/>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                   </fieldset> 
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
