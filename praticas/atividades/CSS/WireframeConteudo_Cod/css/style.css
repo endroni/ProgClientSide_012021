@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;      /* CSS RESET */
+    list-style: none;
+    vertical-align:baseline;
+}
+
+body {
+    background-color: #336677;
+    background-image: url("../img/html-basico-v.2.jpg");
+    background-repeat: repeat;
+    background-position: right top;
+    background-size: 400px 200px;
+}
+
+div {
+    border: 1px solid #000;
+
+    /* border-top:1px; */
+    /* border-bottom:1px; */
+    /* border-left:1px; */
+    /* border-right:1px; */
+    /* border-width:1px; */
+    /* border-style:solid; */
+    /* border-color:#000;  */
+}
+
+#geral, #topo, #menu, #lateral, #conteudo, #rodape {
+        /* uma borda arredondada */
+        border-radius: 10px; /* chrome */
+        -moz-border-radius: 10px; /* firefox */
+        -webkit-border-radius: 10px; /* IE */
+    
+        /* Uma sombra na borda */
+        box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7); 
+        -moz-box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);  /* isso seria um normalize? */
+        -webkit-box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+}
+
+#geral {
+    width: 960px;
+    /* height: 800px;  /* Comentar essa linha para ficar automática */
+    background-color: rgba(120, 210, 189, 0.6);
+    margin: 0 auto ;
+    margin-top: 10px;    
+
+
+}
+
+#topo {
+    width: 900px;
+    height: 240px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color:rgba(145, 220, 230, 0.6);
+    background-image: url("../img/banner.png"); */
+    background-repeat: no-repeat;  /* no-repeat / repeat-x / repeat-y */
+    background-position: center; /* left top center bottom right */
+    background-size: 900px 240px; 
+
+    box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+    -moz-box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+    -webkit-box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+  }
+
+#menu {
+    width: 900px;
+    height: 60px;
+    background-color: rgba(145, 189, 234, 0.6);
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* Início do menu css horizontal */
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #menu li {
+    margin: 0;
+    padding: 0;                     /* MENU CSS RESET */
+    list-style: none;
+  }
+
+  #menu a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  #menu > ul > li {
+    /* display:inline; Posicionar uma lista na horizontal */
+    float: left;
+    margin-left: 20px;
+  }
+
+  #menu > ul > li > a {
+    color:#000;
+    font-weight: bolder;
+    font-family: Source Sans Pro Black;
+    padding: 10px;
+    line-height: 60px;
+  
+    text-shadow: -1px -1px 6px rgba(0, 245, 245, 0.8);
+    -moz-text-shadow: -1px -1px 6px rgba(0, 245, 245, 0.8);
+    -webkit-text-shadow: -1px -1px 6px rgba(0, 245, 245, 0.8);
+  
+    border-radius: 10px; /* chrome */
+    -moz-border-radius: 10px; /* firefox */
+    -webkit-border-radius: 10px; /* IE */
+  
+     transition: all, 0.5s;
+     -moz-transition: all, 0.5s;
+     -webkit-transition: all, 0.5s;
+  }
+
+  #menu > ul > li > a:hover {
+    color:#FFF;
+    font-weight: bolder;
+    font-family: Source Sans Pro Black;
+    padding: 10px;
+    /* border-bottom:4px solid #AAA; */
+    background-color:rgba(10, 10, 10, 0.6);
+    
+    border-radius: 10px; /* chrome */
+    -moz-border-radius: 10px; /* firefox */
+    -webkit-border-radius: 10px; /* IE */
+  
+    box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+    -moz-box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+    -webkit-box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
+  }
+
+/* Fim do menu css horizontal */
+
+
+#lateral {
+    float: left;  /* importante para criar uma coluna lateral */
+    width: 200px;
+    height: 700px;
+    background-color: rgba(123, 200, 240, 0.6);
+    margin-left: 30px;
+    margin-top: 10px; 
+}
+
+
+
+/* Início do menu lateral CSS */
+
+#lateral ul {
+    margin:0;
+    padding:0;
+  }
+  #lateral li {
+    margin:0;
+    padding:0;                   /* MENU LATERAL CSS RESET */
+    list-style:none;
+  }
+  #lateral a {
+    margin:0;
+    padding:0;
+    text-decoration:none;
+  }
+
+  #lateral > ul > li {
+    display:block; /* posicionar a lista em blocos na vertical */
+    border-bottom:1px solid #232;
+    width:100%;
+  }
+
+  #lateral > ul > li > a {
+    color:#111;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: arial;
+    padding: 10px 15px;
+    display: block;
+    
+    text-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+    -moz-text-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+    -webkit-text-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);]
+  
+    transition:all, 0.5s;
+    -moz-transition:all, 0.5s;
+    -webkit-transition:all, 0.5s;
+  }
+
+  #lateral > ul > li > a:hover {
+    color:#AFA;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: arial;
+    padding: 10px 15px;
+    background-color:rgba(98, 145, 240, 0.8);
+  }
+
+/* Fim do menu lateral CSS */
+
+#conteudo {
+    float:right;  /* importante para criar uma coluna lateral */
+    width: 670px;
+    height: 700px;
+    background-color: rgba(98, 145, 240, 0.8);
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Configurações do texto do conteúdo */
+
+.texto {
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color:rgba(234, 234, 235, 0.5);
+    margin-left: 23px;
+    margin-top: 10px;
+  
+    border-style: dashed; /* solid, dotted, dashed, inset , outset, double, groove */
+  
+    border-radius: 10px; /* chrome */
+    -moz-border-radius: 10px; /* firefox */
+    -webkit-border-radius: 10px; /* IE */
+  
+    box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+    -moz-box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+    -webkit-box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+  }
+
+  .texto > h2 {
+    margin-top: 8px;
+    text-align: center;
+    text-transform: capitalize; /* uppercase-maiusculo, lowercase-minusculo */
+    font-family: purisa, arial, verdana; /* tipo da fonte */  
+    font-size: 20px;
+    /* Sombreamento do texto/titulo */ 
+    text-shadow: 5px 6px 4px rgba(20, 20, 20, 0.7);
+    -moz-text-shadow: 5px 6px 4px rgba(20, 20, 20, 0.7);
+    -webkit-text-shadow: 5px 6px 4px rgba(20, 20, 20, 0.7);
+  }
+
+  .texto > p {
+    padding: 0px 10px 10px 10px;
+    text-align: justify;
+    text-indent: 25px;/* Espaçamento de parágrafo */
+    line-height: 20px; /* Espaçamento entre linhas */
+    letter-spacing: -1px;/* Espaçamento entre letras */
+    word-spacing: 2px; /* Espaçamento entre palavras */
+    font-style: italic;  
+  }
+
+  /* fim da configuração do texto */
+
+  #separa {
+    width: 630px;
+    height: 40px;
+    background-color:rgba(245, 245, 245, 0.7);
+    margin-left: 20px;
+    margin-top: 320px;
+  
+    border-radius: 10px; /* chrome */
+    -moz-border-radius: 10px; /* firefox */
+    -webkit-border-radius: 10px; /* IE */
+  
+    box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+    -moz-box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+    -webkit-box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+  }
+
+  #imagem {
+    width: 630px;
+    height: 300px;
+    background-color:rgba(4, 4, 4, 0.6);
+    background-image: url("../img/monitor.png");
+    background-repeat: no-repeat; /* no-repeat / repeat-x / repeat-y */
+    background-position: center; /* left top center bottom right */
+    background-size: 630px 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+  
+    border-radius: 10px; /* chrome */
+    -moz-border-radius: 10px; /* firefox */
+    -webkit-border-radius: 10px; /* IE */
+  
+    box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+    -moz-box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+    -webkit-box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
+  }
+
+
+
+#rodape {
+    width: 900px;
+    height: 50px;
+    background-color: rgba(99, 251, 200, 0.7);
+    margin-left: 30px;
+    clear: both; /* limpa o left e o ritgh - para que a lateral e o conteúdo fiquem um ao lado do outro dentro do geral*/
+    margin-bottom: 10px;
+}
