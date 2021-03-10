@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background-color: #336677;
+}
+
+.geral{
+    background-color: #5ba59f;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px #000;
+    width: 960px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.topo{
+    background-color: #7cc7ca;
+    border: inherit;
+    border-radius: inherit;
+    box-shadow: inherit;
+    width: 900px;
+    height: 240px;
+    margin: inherit;
+    margin-top: 10px;
+}
+
+.menu{
+    background-color: #7cb4cc;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px #000;
+    width: 900px;
+    height: 60px; 
+    margin: auto;
+    margin-top: 10px;    
+}
+
+.lateral {
+    background-color: #6fbbd0;
+    width: 200px;
+    height: 700px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid #000;
+    box-shadow: 2px 1px 1px #000;
+    border-radius: 10px;
+    float: left;
+    margin-left: 30px;
+}
+
+.conteudo{
+    background-color: #6095e0;
+    width: 670px;
+    height: 700px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px #000;
+    margin: auto;
+    margin-top: 10px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.rodape{
+    background-color: #60e2bc;
+    width: 900px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px #000;
+    margin-left: 30px;
+    clear: both;
+    margin-bottom: 10px;    
+}
