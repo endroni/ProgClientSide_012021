@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            background-color: cadetblue;
+            width: 25%;  /* 1º responsivo */          
+            float: left; /* 1º responsivo */
+            list-style-type: none;           
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 10px;
+            font-size: 20px;
+            color: #fff;            
+        }
+
+        @media only screen and (max-width: 600px) {
+            .col-12 { width: 100%;}
+        }
+
+        div {
+            background-color: blueviolet;
+            width: 400px;
+            height:400px;
+        }
+
+        @media only screen and (min-width: 600px) {
+            div {background-color: tomato;}
+        }
+    </style>
+</head>
+<body>    
+    <ul>
+        <li class="col-12"><a href="index.html">Home</a></li>
+
+        <li class="col-12"><a href="about.html">About</a></li>
+
+        <li class="col-12"><a href="client.html">Client</a></li>
+
+        <li class="col-12"><a href="contact.html">Contact</a></li>    
+
+    </ul>    
+    
+    <div>
+
+    </div>
+</body>
+</html>
