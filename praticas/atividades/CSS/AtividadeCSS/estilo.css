@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+* {
+    margin:0px;
+    padding:0px;
+    text-decoration:none;
+    vertical-align:baseline;
+    font-style:normal;
+    border:none;
+}
+
+
+body {
+     background:#FF0000;
+}
+
+div {
+    border: #000000 thin outset;
+}
+
+#geral{
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:960px;
+    background-color:#FFEE00;
+}
+
+#topo {
+    margin:0 auto;
+    width:955px;
+    height:140px;
+    background-color:#77EE00;
+    
+}
+
+#menu {
+    margin:0 auto;
+    width:955px;
+    height:60px;
+    background-color:#77EE67;
+    
+}
+
+#lateral_e{
+    float:left;
+    width:130px;
+    height:830px;
+    background-color:#F67800;
+}
+
+#conteudo {
+    float:left;
+    padding:3px;
+    width:680px;
+    background-color:#FFEE99;
+
+}
+
+#texto{
+   float:left;
+   width:300px;
+   height:300px;
+   background-color:#66EE99;
+}
+
+#imagem {
+   margin-left:380px;
+   width:300px;
+   height:300px;
+   background-color:#66EE22;
+
+}
+
+#separa {
+   margin:5px auto;
+   width:678px;
+   height:50px;
+   background-color:#FFEE22;
+
+}
+
+.texto_img {
+   float:left;
+   margin:0 auto;
+   margin-left:25px;
+   width:300px;
+   height:450px;
+   background-color:#662222;
+
+}
+
+#lateral_d{
+    float:right;
+    margin:3px;
+    width:130px;
+    height:825px;
+    background-color:#00EE99;
+
+}
+
+#rodape{
+    margin:0 auto;
+    width:960px;
+    height:50px;
+    background-color:#002299;
+    clear:both;
+}
+
+
+
+
+
+
