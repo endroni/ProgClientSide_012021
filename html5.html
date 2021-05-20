@@ -36,10 +36,10 @@
                             AULAS    
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">                            
-                            <a class="dropdown-item" href="html5.html">HTML 5</a>
+                            <a class="dropdown-item" href="#">HTML 5</a>
                             <a class="dropdown-item" href="#">CSS 3</a>
                             <a class="dropdown-item" href="#">JavaScript</a>
-                            <a class="dropdown-item" href="#">Bootstrap</a>
+                            <a class="dropdown-item" href="#">BootStrap</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Novidades</a>
                         </div>
@@ -57,7 +57,59 @@
     </header>
 
     <main class="container">
-        <h1>Me tornando um Web developer</h1>        
+        
+        <h1>Clique na aula correspondente para ver o conteúdo</h1>  
+        
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    HTML - Aula 00 - Hello Word
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>
+                    Criamos nosso primeiro arquivo HTML utilizando apenas o bloco de notas. Não se esqueça de salvar o arquivo com a extensão <code>.html</code>
+                  </p>
+                  <img src="./img/aula01.png" alt="Código aula 01" title="Código HTML">
+                  <button type="button" class="btn btn-primary btn-lg btn-block">Arquivo da aula de hoje</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Some placeholder content for the second accordion panel. This panel is hidden by default.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                </div>
+              </div>
+            </div>
+          </div>
+
     </main>
 
     <footer>
